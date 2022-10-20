@@ -5,3 +5,6 @@ h1 {
     font-size: 20px;
     color: blue;
   }
+  .content {
+    font-family: "Open Sans", Verdana, sans-serif;
+  }
