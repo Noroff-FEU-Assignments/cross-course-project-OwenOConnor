@@ -8,3 +8,13 @@ h1 {
   .content {
     font-family: "Open Sans", Verdana, sans-serif;
   }
+  
+  nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
