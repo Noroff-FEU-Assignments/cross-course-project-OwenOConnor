@@ -39,6 +39,22 @@ footer {
   flex-direction: column;
 }
 
-@media only screen and (min: width 600px) {
-  .container }
-      flex-direction: row;
+/*mobile styles*/
+@media only screen and (max-width:480) {
+  body{
+    width: 320px
+  }
+pre {
+  font-size: .8em;
+  padding: .5em;
+  background-color: #3873A6;
+  border-bottom: 2px solid #666;
+  line-height: 1.6;
+}
+}
+
+/*tablet styles*/
+@media only screen and (min-width:481) and (max-width:768px){}
+
+/*desktop styles*/
+@media only screen and (min-width:769) {}
