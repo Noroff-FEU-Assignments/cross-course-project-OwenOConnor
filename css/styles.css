@@ -34,12 +34,6 @@ nav a {
 }
 
 
-.pink {
-    padding:  2px 2px 2px 2px;
-    height: 100px;
-    width: 100px;
-}
-
 .stormberg {
     padding:  2px 2px 2px 2px;
     height: 100px;
@@ -74,9 +68,9 @@ nav a {
 
  
   .pink { margin: 10px;
-  float: right;
   width: 300px;}
-  
+
+
   .blue {
     max-width: 300px;
   }
