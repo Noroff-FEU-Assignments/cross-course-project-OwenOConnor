@@ -33,6 +33,17 @@ nav a {
     padding: 10px 20px;
 }
 
+.Product { 
+    display: block;
+    padding:  2px 2px 2px 2px;
+    margin: 0 auto
+    height: 1px;
+    width: 1px;
+    
+}
+
+
+
 @media (min-width: 600px) {
     nav{
         display: block; 
@@ -45,5 +56,18 @@ nav a {
 
     nav a {
         display: inline-block;
+    }
+}
+
+
+/*responsive design*/
+.container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 600px){
+    .container {
+        flex-direction: row;
     }
 }
