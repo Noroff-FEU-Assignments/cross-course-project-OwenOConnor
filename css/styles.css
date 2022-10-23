@@ -42,7 +42,17 @@ nav a {
     
 }
 
+.pink {
+    padding:  2px 2px 2px 2px;
+    height: 100px;
+    width: 100px;
+}
 
+.stormberg {
+    padding:  2px 2px 2px 2px;
+    height: 100px;
+    width: 100px;
+}
 
 @media (min-width: 600px) {
     nav{
