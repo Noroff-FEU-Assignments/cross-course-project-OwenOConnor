@@ -20,18 +20,15 @@ h1 {
   }
 
 nav a {
-    color: black
-    ;
-    text-decoration: none;
-    padding: 100px;
-}
+   display: block
+  }
 
 nav, 
 #menu-checkbox {
   display: none;
 }
 
-#menu-checkbox:checked ~ nav {
+#menu-checkbox:checked ~ nav a {
   display block;
 }
 
