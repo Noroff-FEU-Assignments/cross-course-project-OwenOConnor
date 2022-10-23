@@ -15,7 +15,7 @@ h1 {
 
   nav li {
     display: block;
-    font: 5em sans-serif;
+    font: 2em sans-serif;
     padding:100;
   }
 
@@ -31,6 +31,38 @@ nav,
 
 nav a:hover {
   text-decoration: underline;
+}
+
+header {
+  position:relative;
+  background: grey;
+  color: white;
+  padding:10 px;
+  font-size: 1rem;
+
+}
+
+.topnav{
+  position: absolute;
+  background: white
+  top: 0
+  left:0
+}
+
+nav a {
+  display: inline-block
+}
+
+@media (min-width: 600px){
+  .topnav {
+    display: inline-block;
+    position: static
+  }
+
+  .hamburger-icon{
+    display: none;
+  }
+
 }
 
 footer {
