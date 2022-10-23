@@ -1,88 +1,49 @@
 body {
- background-color: #A0C3D9; 
- margin: 2em auto 2em;
+    font-family: "Open- Sans", Verdana, Geneva, Tahoma, sans-serif
 }
 
-h1 {
-    font-size: 45px;
-    color: blue;
-  }
-  
-  .active {
-    background-color: white;
-    color: black;
-  }
 
-  nav li {
+nav,
+#menu-checkbox { 
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
     display: block;
-    font: 2em sans-serif;
-    padding:100;
-  }
-
-
-nav, 
-#menu-checkbox {
-  display: none;
-}
-
-#menu-checkbox:checked ~ nav  {
-  display: block;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
 
 header {
-  position:relative;
-  background: rgb(141, 34, 34);
-  color: white;
-  padding:10 px;
-  font-size: 1rem;
+    position: relative;
+    background: rgb(56, 56, 56);
+    color: white;
+    padding: 10px;
 
 }
 
-.topnav{
-  position: absolute;
-  background: white
-  top: 0
-  left:0
+nav {
+    position: absolute;
+    background:rgb(56, 56, 56);
+    left:0px;
+    
 }
 
 nav a {
-  display: inline-block
+    display: block;
+    color: white;
+    padding: 10px 20px;
 }
 
-@media (min-width: 600px){
-  .topnav {
-    display: inline-block;
-    position: static
-  }
+@media (min-width: 600px) {
+    nav{
+        display: block; 
+        position: static;  
+    }
 
-  .hamburger-icon{
-    display: none;
-  }
+    .hamburder-icon {
+        display: none;
+    }
 
+    nav a {
+        display: inline-block;
+    }
 }
-
-footer {
-  background-color: #3873A6;
-  text-align: center;
-}
-
-.product {
-  max-width: 50%;
-}
-
-.product__image {
-  width: 100%;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-}
-
-
-
-
