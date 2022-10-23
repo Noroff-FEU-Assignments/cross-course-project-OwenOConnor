@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1f46dc2a5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-      <nav>
+      <input type="checkbox" id="menu-checkbox"/>
+      <label-for="menu-checkbox"><i class="fa-solid fa-bars"></i></label>
+
+      <nav class="topnav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active"> Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="checkout.html">Check out</a></li>
-          <li><a href="ourjackets.html">ourjackets</a></li>
         </ul>
-      </nav>
-        <img class="img-logo" src="images/logo.jpg" alt="rainydayslogo">
+     <img src="images/logo.jpg" alt="rainydayslogo" class="img-logo">
+       
+        </nav>
+  
         <h1>Home</h1>
       </header>
       <main>
@@ -29,7 +34,7 @@
           <p>Water resistant, windproof, happydays </p>
         </div>
         <img src="images/pink.jpg.webp" alt="pink" style="float:right" width="500" height=200">
-        <img src="images/stormberg.jpg" alt="stormberg">
+        <img src="images/stormberg.jpg" alt="stormberg" class="stormberg">
       </main>
       <footer>Copyright &copy;
         <button>Contact us</button>
