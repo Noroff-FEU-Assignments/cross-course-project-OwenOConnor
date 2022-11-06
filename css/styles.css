@@ -106,7 +106,7 @@ nav a {
     }
   }
   @media(max-width 700px){
-    .footer-col {
+    .footer-col ul li a{
         width: 100px ;
         margin-bottom: 30px;
     }
