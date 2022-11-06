@@ -85,6 +85,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
   }
+
   .footer-col{
     width: 25%;
     padding: 0 15px;
@@ -94,19 +95,16 @@ nav a {
     color: black;
     padding-left: 8px;
   }
-  .footer-col .social-links a {
-
-  }
 
   /*responsive*/
-  @media(max-width 767px){
+  @media(max-width 1001px){
     .footer-col {
         width: 50px ;
         margin-bottom: 30px;
     }
   }
-  @media(max-width 700px){
-    .footer-col ul li a{
+  @media(max-width 1000px){
+    .footer-col {
         width: 100px ;
         margin-bottom: 30px;
     }
