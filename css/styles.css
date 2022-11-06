@@ -55,12 +55,7 @@ nav a {
     }
 }
 
-.footer {
-    text-align: center;
-    padding: 3px;
-    background-color: #3873A6;
-    color: white;
-  }
+
 
   .product {
     max-width: 300px;
@@ -78,3 +73,40 @@ nav a {
   .blue{
     width: 100%
   }
+
+  .footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #3873A6;
+    color: white;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  .footer-col ul li a:hover {
+    color: black;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a {
+
+  }
+
+  /*responsive*/
+  @media(max-width 767px){
+    .footer-col {
+        width: 50px ;
+        margin-bottom: 30px;
+    }
+  }
+  @media(max-width 574px){
+    .footer-col {
+        width: 100px ;
+        margin-bottom: 30px;
+    }
