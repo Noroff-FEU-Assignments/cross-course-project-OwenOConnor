@@ -18,19 +18,131 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
+      <a href="checkout.html">Check Out</a>
     </nav>
   </header>
-  <main>
-    <section>
-      <h1>Welcome to rainy days</h1>
-      <p1>We will make you shine<p1>
-    </section>
-  </main>
-</body>
+  
+  <h2> Rainydays Checkout Form</h2>
+  <div class="rowb">
+    <div class="col-75">
+      <div class="containerb">
+        <form action="/action_page.php">
 
-<footer>
-<footer class="footer"></footer>
-Copyright &copy;
-</footer>
+          <div class="rowb">
+            <div class="col-50">
+              <h3>Billing  Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="john@example.com">
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="rowb">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="rowb">
+              <div class="col-50">
+                <label for="zip">Zip</label>"
+                <input type="text" id="zip" name="zip" placeholder="xxxx">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-containerb">
+              <i class="fa fa-cc-visa" style="color: navy;"></i>
+              <i class="fa fa-cc-amex" style="color: blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color: red;"></i>
+              <i class="fa fa-cc-discover" style="color: orphans: orange;"></i>
+            </div>
+            <label for="cname"> Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Ole Nordman">
+            <label for="cnum"> Credit Card Number</label>
+            <input type="text" id="cnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth"> Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="rowb">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="CVV" name="CVV" placeholder="CVV">
+              </div>
+              <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+          </div>
+    </div>
+    <div class="col-25">
+      <div class="containerb">
+        <h4> Cart <span class="price" style="color:black ;"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+        <p><a href="#">Prod 1</a> <span class="price">15nok</span></p>
+        <p><a href="#">Prod 2</a> <span class="price">15nok</span></p>
+        <p><a href="#">Prod 3</a> <span class="price">15nok</span></p>
+        <p><a href="#">Prod 4</a> <span class="price">15nok</span></p>
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>60nok</b></span></p>
+      </div>
+    </div>
+  </div>
+  </body>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">contact us</a></li>
+              <li><a href="#">check out</a></li>
+              <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>  
+        <div class="footer-col">
+          <h4>about us</h4>
+          <ul>
+              <li><a href="#">blah </a></li>
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Payment Options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <ul>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </ul>
+        </div>
+      </div>
+    </div>
+            
+  </footer>
+
+
+
+
+
+
 
 </html>
