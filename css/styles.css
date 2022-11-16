@@ -10,6 +10,21 @@ body {
   height: 100vh;
     
 }
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .container{
   position: relative;
@@ -21,13 +36,13 @@ body {
   padding: 20px 100px;
 }
 
-.container: after {
+.container after {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height; 100%;
+  height: 100%;
 }
 
 .field {
@@ -151,9 +166,9 @@ nav a {
   list-style-type: none;
 }
 
-.menu-item{
-  margin: 2rem,
-  cursor: pointer
+.menu-item {
+  margin: 2rem;
+  cursor: pointer;
   font-weight: 600;
 }
 
@@ -188,24 +203,9 @@ nav a {
 }
 
 .containerb {
-  background-color: #f2f2f2;
+  background-color: grey;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
 
-
-span.price {
-  float: right;
-  color: grey;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .rowb {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
