@@ -269,3 +269,18 @@ a:hover {
  
 
 }
+
+.field {
+  width: 100%;
+  padding: 0.5rem 1 rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+.field:hover {
+  background-color: rgba(0,0,0, 0.1);
+}
