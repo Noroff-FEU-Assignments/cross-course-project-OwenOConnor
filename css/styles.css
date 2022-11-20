@@ -20,6 +20,10 @@ body {
   min-height: 70vh;
 }
 
+h1, p {
+  text-align: center;
+}
+
 .section_about {
   background-image: url("../images/sunrise_renew.jpg");
   background-size: cover;
@@ -135,11 +139,16 @@ a {
 a:hover {
   transition: 0.2s;
   color:red
-  
+  }
+
+.firstjacket {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
 }
 
 
-.jackets {
+.jackets  {
   width: 200px;
   height: 300px;
   object-fit: cover;
@@ -305,6 +314,14 @@ a:hover {
   }
 }
 
+.jacketproduct {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+}
+
 /* Style the jacket cards */
 .cardproduct {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -317,9 +334,7 @@ a:hover {
 .cardproduct:hover{
   transform: translateY(-O.5%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
- 
-
-}
+ }
 
 .field {
   width: 100%;
