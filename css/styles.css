@@ -157,6 +157,24 @@ a:hover {
     padding-left: 10px; 
   }
 
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+  }
+
+  .footer-col .social-links a:hover {
+    color:pink;
+    background-color: #8098ad;
+    }
+
   ul{
     list-style: none;
   }
@@ -283,4 +301,19 @@ a:hover {
 
 .field:hover {
   background-color: rgba(0,0,0, 0.1);
+}
+
+/*responsive footer*/
+@media(max-width:767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 600px){
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
